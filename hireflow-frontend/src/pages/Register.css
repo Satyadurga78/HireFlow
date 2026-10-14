@@ -1,0 +1,6 @@
+/* ===== Register: role selector ===== */
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.seg label{margin:0;border:1px solid var(--line);border-radius:10px;padding:10px;text-align:center;cursor:pointer;font-weight:600;color:var(--ink-2)}
+.seg label:hover{background:var(--fill)}
+.seg input{display:none}
+.seg label:has(input:checked){border-color:var(--brand-600);background:var(--brand-50);color:var(--brand-text)}

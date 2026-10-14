@@ -1,0 +1,23 @@
+# Frontend
+hireflow-frontend/node_modules/
+hireflow-frontend/dist/
+hireflow-frontend/.env
+hireflow-frontend/.env.*
+!hireflow-frontend/.env.example
+
+# Backend
+hireflow-backend/target/
+hireflow-backend/.env
+hireflow-backend/.env.*
+!hireflow-backend/.env.example
+
+# Secrets and local configuration
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

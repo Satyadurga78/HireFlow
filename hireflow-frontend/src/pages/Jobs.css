@@ -1,0 +1,12 @@
+/* ===== Explore Jobs (job cards are also used by Manage Jobs) ===== */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.job{display:flex;flex-direction:column;gap:12px;transition:border-color .15s}
+.job:hover{border-color:var(--brand-200)}
+.job .head{display:flex;gap:12px;align-items:center}
+.job h3{font-size:16px;line-height:1.3}
+.job .meta{color:var(--mute);font-size:13px}
+.job .pay{font-weight:600;font-size:13.5px;margin-top:2px}
+.job p{color:var(--ink-2);font-size:13.5px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.job .foot{margin-top:auto;display:flex;gap:8px;padding-top:4px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;margin:-6px 0 18px}.filters select{width:auto;min-width:170px}
+.job-title{background:none;border:0;padding:0;font:inherit;color:inherit;text-align:left}.job-title:hover{color:var(--brand-300)}

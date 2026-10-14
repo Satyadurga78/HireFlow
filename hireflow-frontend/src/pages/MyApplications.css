@@ -1,0 +1,3 @@
+/* ===== My Applications (rows are also used by Applicants) ===== */
+.app{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.app .info{flex:1;min-width:220px}.app h3{font-size:15.5px}

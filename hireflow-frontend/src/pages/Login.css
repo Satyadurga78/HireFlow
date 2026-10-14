@@ -1,0 +1,16 @@
+/* ===== Login (also used by Register) ===== */
+.auth{display:grid;grid-template-columns:1.1fr 1fr;min-height:100vh}
+.hero{background:linear-gradient(160deg,var(--brand-900),#4c1d95);color:#fff;padding:clamp(28px,6vw,72px);display:flex;flex-direction:column;justify-content:center;gap:22px}
+.hero .logo{padding:0;color:#fff}.hero .logo .mark{background:#fff;color:var(--brand-600)}.hero .logo i{color:var(--brand-text)}
+.hero h1{font-size:clamp(34px,5vw,50px);line-height:1.08;letter-spacing:-1.2px}
+.hero p{color:var(--brand-text);max-width:430px;font-size:15.5px}
+.flow{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.flow span{border:1px solid rgba(255,255,255,.35);padding:6px 14px;border-radius:999px;font-weight:600;font-size:13px}
+.flow span:nth-child(3){background:#fff;border-color:#fff;color:var(--brand-700)}
+.flow i{width:22px;height:2px;background:rgba(255,255,255,.4)}
+.form{display:grid;place-items:center;padding:28px;background:var(--card)}.form>form{width:min(380px,100%)}
+.form .sub{margin-bottom:8px}
+.form .btn.full{margin-top:20px}
+.form .alt{margin:18px 0 0}
+.link{color:var(--brand-300);font-weight:600;text-decoration:none}.link:hover{text-decoration:underline}
+@media(max-width:820px){.auth{grid-template-columns:1fr}.hero{padding:32px 24px}}

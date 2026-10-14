@@ -1,0 +1,8 @@
+/* ===== Notifications ===== */
+.nts{padding:6px 20px}
+.nt{display:flex;gap:14px;align-items:center;width:100%;text-align:left;background:none;border:0;border-bottom:1px solid var(--line);padding:14px 0}
+.nt:last-child{border:0}
+.nt .ni{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;flex:none;background:var(--brand-100);color:var(--brand-text)}
+.nt .ni.g{background:var(--ok-bg);color:var(--ok)}.nt .ni.r{background:var(--bad-bg);color:var(--bad)}.nt .ni.a{background:var(--warn-bg);color:var(--warn)}
+.nt .nb{flex:1;min-width:0}.nt b{display:block;font-weight:500;font-size:14px;color:var(--ink-2)}.nt.unread b{font-weight:700;color:var(--ink)}
+.nt .dot{width:9px;height:9px;border-radius:50%;background:var(--brand-500);flex:none}
